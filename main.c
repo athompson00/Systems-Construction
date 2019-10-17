@@ -12,7 +12,7 @@ int main(){
 
   printf("After first created: \n");
   print(s0);
-  printf("After Change");
+  printf("After Change\n");
   change(s0, "John", 82);
   print(s0);
 

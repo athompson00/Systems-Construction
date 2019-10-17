@@ -16,7 +16,7 @@ struct student creation(){
 
 void print(struct student s){
   printf("Student name: %s\n", s.name);
-  printf("Student GPA: %d", s.GPA);
+  printf("Student GPA: %d\n", s.GPA);
 }
 
 void change(struct student s, char *name, int newGPA){

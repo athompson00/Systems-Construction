@@ -1,10 +1,9 @@
 #include "headers.h"
-#include "create.c"
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
 
-struct student {char* name; int GPA;};
+struct student {char name[15]; int GPA;};
 
 
 

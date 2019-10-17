@@ -1,6 +1,14 @@
-struct student create(){
+#include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+struct student {char name[15]; int GPA;};
+
+struct student creation(){
   struct student s0;
-  s0.name = "cheese";
-  s0.GPA = "62";
+  s0.name = "initial";
+  s0.GPA = srand(time(0)) % 100;
   return s0;
 }

@@ -11,4 +11,4 @@ run:
 		./program
 
 clean:
-		rm * .o
+		rm *.o

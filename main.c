@@ -11,6 +11,6 @@ int main(){
   struct student s0 = create.create();
 
   printf(s0.name);
-  printf(s0.GPA);
+  printf("%d",s0.GPA);
 
 }

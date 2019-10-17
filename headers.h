@@ -1,1 +1,1 @@
-student create();
+struct student create();

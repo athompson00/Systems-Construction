@@ -8,7 +8,7 @@ struct student {char name[15]; int GPA;};
 
 
 int main(){
-  struct student s0 = create.create();
+  struct student s0 = create();
 
   printf(s0.name);
   printf("%d",s0.GPA);

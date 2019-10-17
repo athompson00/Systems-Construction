@@ -3,7 +3,7 @@
 #include<stdlib.h>
 #include<string.h>
 
-struct student {char name[15]; int GPA;};
+
 
 
 

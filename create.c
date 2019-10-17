@@ -4,7 +4,6 @@
 #include <string.h>
 
 
-struct student {char name[15]; int GPA;};
 
 struct student creation(){
   struct student s0;

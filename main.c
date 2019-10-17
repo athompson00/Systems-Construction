@@ -10,7 +10,7 @@
 int main(){
   struct student s0 = creation();
 
-  printf(s0.name);
+  printf("%s",s0.name);
   printf("%d",s0.GPA);
 
 }

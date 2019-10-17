@@ -13,3 +13,8 @@ struct student creation(){
   s0.GPA = rand() % 100;
   return s0;
 }
+
+void print(struct student s){
+  printf("Student name: %s\n", s.name);
+  printf("Student GPA: %d", s.GPA);
+}

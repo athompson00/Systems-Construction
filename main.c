@@ -3,12 +3,14 @@
 #include<stdlib.h>
 #include<string.h>
 
-struct {char* name; int GPA} student;
+struct student {char* name; int GPA;};
+
+
 
 int main(){
-  create.create();
+  student s0 = create.create();
 
-  printf(create.s0.name);
-  printf(create.s0.GPA);
+  printf(s0.name);
+  printf(s0.GPA);
 
 }

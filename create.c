@@ -9,6 +9,7 @@ struct student {char name[15]; int GPA;};
 struct student creation(){
   struct student s0;
   s0.name = "initial";
-  s0.GPA = srand(time(0)) % 100;
+  srand(time(0));
+  s0.GPA = rand();
   return s0;
 }
